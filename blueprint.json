@@ -1,0 +1,142 @@
+{
+  "schema": {
+    "type": "app_blueprint",
+    "version": {
+      "major": 1,
+      "minor": 0
+    },
+    "origin": "Engines Developer Studio 0.2"
+  },
+  "metadata": {
+    "blueprint": {
+      "version": {
+        "major": 0,
+        "minor": 0,
+        "level": "alpha",
+        "patch": 0
+      }
+    },
+    "software": {
+      "display": {
+        "title": "tet",
+        "label": "",
+        "version": "",
+        "description": "",
+        "url": ""
+      },
+      "license": {
+        "label": "",
+        "url": ""
+      }
+    },
+    "timestamp": "2017-05-05 06:34:57 UTC"
+  },
+  "software": {
+    "base": {
+      "name": "test",
+      "framework": "apache_php",
+      "deployment_type": "web",
+      "http_protocol": "http_only",
+      "framework_port_override": "",
+      "web_root_directory": "e",
+      "continuous_deployment": false,
+      "memory": {
+        "required": "0",
+        "recommended": "0"
+      },
+      "install_form_comment": "",
+      "first_run_url": "",
+      "installation_report": ""
+    },
+    "ports": [
+
+    ],
+    "scripts": {
+      "start": {
+        "language": "",
+        "content": ""
+      },
+      "install": {
+        "language": "",
+        "content": ""
+      },
+      "post_install": {
+        "language": "",
+        "content": ""
+      },
+      "shutdown": {
+        "language": "",
+        "content": ""
+      }
+    },
+    "external_repositories": [
+
+    ],
+    "system_packages": [
+
+    ],
+    "installed_packages": [
+
+    ],
+    "required_modules": [
+
+    ],
+    "service_configurations": [
+
+    ],
+    "environment_variables": [
+
+    ],
+    "template_files": [
+
+    ],
+    "replacement_strings": [
+
+    ],
+    "database_seed": {
+      "language": "",
+      "content": "",
+      "script": false
+    },
+    "file_write_permissions": [
+
+    ],
+    "persistent_directories": [
+
+    ],
+    "persistent_files": [
+
+    ],
+    "components": {
+      "path": "",
+      "extract": false,
+      "sources": [
+
+      ]
+    },
+    "workers": {
+      "blocking": "",
+      "commands": [
+
+      ]
+    },
+    "rake_tasks": [
+
+    ],
+    "custom_php_inis": [
+
+    ],
+    "apache_htaccess_files": [
+
+    ],
+    "apache_httpd_configurations": [
+
+    ],
+    "actionators": [
+
+    ],
+    "schedules": [
+
+    ]
+  }
+}
